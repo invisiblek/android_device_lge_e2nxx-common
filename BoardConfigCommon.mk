@@ -96,6 +96,9 @@ TARGET_RECOVERY_FSTAB := device/lge/e2nxx-common/rootdir/etc/fstab.e2
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/lge/e2nxx-common/ril/
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/e2nxx-common/sepolicy
