@@ -170,6 +170,7 @@ PRODUCT_PACKAGES += \
     init.e2.usb.rc \
     init.lge.early.rc \
     init.lge.rc \
+    init.zetaw.bt.sh \
     init.zetaw.class_core.sh \
     init.zetaw.class_main.sh \
     init.zetaw.early_boot.sh \
