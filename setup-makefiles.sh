@@ -87,7 +87,7 @@ EOF
 
 fi
 
-export DEVICE=v4xx-common
+export DEVICE=e2nxx-common
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
