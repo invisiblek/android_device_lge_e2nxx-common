@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_lge_e2nxx",
+    "target_path": "kernel/lge/e2nxx"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  }
+]
