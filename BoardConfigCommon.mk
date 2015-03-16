@@ -114,36 +114,6 @@ include device/qcom/sepolicy/sepolicy.mk
 # TODO
 # BOARD_SEPOLICY_DIRS += device/lge/e2nxx-common/sepolicy
 # BOARD_SEPOLICY_UNION += \
-#    device.te \
-#    file.te \
-#    file_contexts \
-#    genfs_contexts \
-#    hostapd.te \
-#    init_shell.te \
-#    kcal_dev.te \
-#    kernel.te \
-#    keystore.te \
-#    lge_touch_sysfs.te \
-#    mm-pp-daemon.te \
-#    mm-qcamerad.te \
-#    mpdecision.te \
-#    nfc.te \
-#    platform_app.te \
-#    property.te \
-#    property_contexts \
-#    radio.te \
-#    rmt_storage.te \
-#    sensors.te \
-#    servicemanager.te \
-#    sysinit.te \
-#    system_app.te \
-#    tee.te \
-#    thermal-engine.te \
-#    vibe_data_file.te \
-#    ueventd.te \
-#    vold.te \
-#    wcnss_service.te \
-#    wpa.te
 
 # Time services
 # TODO (needs libtime_genoff)
