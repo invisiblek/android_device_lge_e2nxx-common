@@ -158,6 +158,13 @@ service audiod /system/bin/audiod
    user system
    group system
 
+service charger /sbin/charger_e2nxx
+    class charger
+    critical
+
+on charger
+   class_start charger
+
 on boot
     start imsqmidaemon
     insmod /system/lib/modules/adsprpc.ko
