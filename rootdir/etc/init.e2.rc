@@ -236,8 +236,3 @@ service bnrd /system/bin/bnrd
       user root
       group system radio sdcard_rw
 #GOTA_UA
-
-on boot
-#   Define TMUS requirement for TCP buffer sizes for various networks
-#   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
-    setprop net.tcp.buffersize.wifi    4096,221184,3461120,4096,221184,3461120
