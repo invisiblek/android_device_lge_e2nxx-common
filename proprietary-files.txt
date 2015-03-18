@@ -29,23 +29,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 
 # Camera
 bin/mm-qcamera-daemon
-etc/firmware/cpp_firmware_v1_2_0.fw
-lib/hw/camera.vendor.msm8226.so
-lib/libchromatix_hi543_common.so
-lib/libchromatix_hi543_default_video.so
-lib/libchromatix_hi543_preview.so
-lib/libchromatix_hi543_snapshot.so
-lib/libchromatix_imx111_common.so
-lib/libchromatix_imx111_default_video.so
-lib/libchromatix_imx111_preview.so
-lib/libchromatix_imx111_snapshot.so
-lib/libchromatix_imx119_common.so
-lib/libchromatix_imx119_default_video.so
-lib/libchromatix_imx119_preview.so
-lib/libchromatix_imx179_common.so
-lib/libchromatix_imx179_default_video.so
-lib/libchromatix_imx179_preview.so
-lib/libchromatix_imx179_snapshot.so
+lib/hw/camera.msm8226.so
 lib/libmmcamera_hi543.so
 lib/libmmcamera_hi707.so
 lib/libmmcamera_imx111.so
@@ -77,6 +61,8 @@ vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_hi351.so
 vendor/lib/libmmcamera_hi543_eeprom.so
+vendor/lib/libmmcamera_hi544_eeprom.so
+vendor/lib/libmmcamera_hi544.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imx111_eeprom.so
 vendor/lib/libmmcamera_imx179_eeprom.so
@@ -91,6 +77,30 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
+
+# Camera chromatix
+lib/libchromatix_hi543_common.so
+lib/libchromatix_hi543_default_video.so
+lib/libchromatix_hi543_preview.so
+lib/libchromatix_hi543_snapshot.so
+lib/libchromatix_imx111_common.so
+lib/libchromatix_imx111_default_video.so
+lib/libchromatix_imx111_preview.so
+lib/libchromatix_imx111_snapshot.so
+lib/libchromatix_imx119_common.so
+lib/libchromatix_imx119_default_video.so
+lib/libchromatix_imx119_preview.so
+lib/libchromatix_imx179_common.so
+lib/libchromatix_imx179_default_video.so
+lib/libchromatix_imx179_preview.so
+lib/libchromatix_imx179_snapshot.so
+vendor/lib/libchromatix_hi544_common.so
+vendor/lib/libchromatix_hi544_default_video.so
+vendor/lib/libchromatix_hi544_preview.so
+vendor/lib/libchromatix_hi544_snapshot.so
+
+# Camera firmware
+etc/firmware/cpp_firmware_v1_2_0.fw
 
 # DRM
 bin/qseecomd

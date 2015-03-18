@@ -86,8 +86,8 @@ PRODUCT_PACKAGES += \
     bdAddrLoader
 
 # Camera
-PRODUCT_PACKAGES += \
-    camera.msm8226
+#PRODUCT_PACKAGES += \
+#    camera.msm8226
 
 # Display
 PRODUCT_PACKAGES += \
