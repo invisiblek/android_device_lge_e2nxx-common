@@ -70,7 +70,7 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 EXTENDED_FONT_FOOTPRINT := true
 
 # Lights
-#TARGET_PROVIDES_LIBLIGHT := true
+TARGET_PROVIDES_LIBLIGHT := true
 
 # Logging
 TARGET_USES_LOGD=false

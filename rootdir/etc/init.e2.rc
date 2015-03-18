@@ -60,12 +60,8 @@ on boot
     insmod /system/lib/modules/adsprpc.ko
     insmod /system/lib/modules/texfat.ko
 
-#LGE_CHANGE_S, for RED Color LED
-	chown system system /sys/class/leds/red/red_blink
-	chown system system /sys/class/leds/red/brightness
-	chmod 0664 /sys/class/leds/red/red_blink
-	chmod 0664 /sys/class/leds/red/brightness
-#LGE_CHANGE_E, for RED Color LED
+    # leds
+    chmod 664 /sys/class/leds/lcd-backlight/brightness
 
 #LGE_CHANGE_S, for getting touch alc cdata, sangyeol.ryu@lge.com
 	chmod 664 /sys/devices/virtual/input/lge_touch/lpwg_alc
