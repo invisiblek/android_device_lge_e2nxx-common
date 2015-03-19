@@ -90,9 +90,6 @@ TARGET_POWERHAL_VARIANT := qcom
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
-# Radio
-BOARD_RIL_CLASS := ../../../device/lge/e2nxx-common/ril/
-
 # Recovery
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 TARGET_RECOVERY_FSTAB := device/lge/e2nxx-common/rootdir/etc/fstab.e2
