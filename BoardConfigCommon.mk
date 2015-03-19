@@ -101,9 +101,16 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-# TODO
-# BOARD_SEPOLICY_DIRS += device/lge/e2nxx-common/sepolicy
-# BOARD_SEPOLICY_UNION += \
+BOARD_SEPOLICY_DIRS += device/lge/e2nxx-common/sepolicy
+BOARD_SEPOLICY_UNION += \
+  file_contexts \
+  file.te \
+  init_shell.te \
+  mpdecision.te \
+  rmt_storage.te \
+  sensors.te \
+  thermal-engine.te \
+  vold.te
 
 # Time services
 # TODO (needs libtime_genoff)
