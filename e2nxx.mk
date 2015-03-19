@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
     fstab.e2 \
     init.e2.rc \
     init.e2.usb.rc \
-    init.lge.early.rc \
     init.lge.rc \
     init.zetaw.bt.sh \
     init.zetaw.class_core.sh \
