@@ -811,7 +811,7 @@ service hcidump /system/bin/sh /system/etc/hcidump.sh
     disabled
     oneshot
 
-service charger /charger_e2nxx
+service charger /sbin/charger_e2nxx
     class charger
 
 # Mobile DM Router
