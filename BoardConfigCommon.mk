@@ -139,3 +139,16 @@ TARGET_RECOVERY_DEVICE_DIRS += device/lge/e2nxx-common
 TW_INCLUDE_L_CRYPTO := true
 TW_NO_SCREEN_TIMEOUT := true
 TW_NO_USB_STORAGE := true
+
+# MultiROM
+MIRI_W := 54
+MR_CONTINUOUS_FB_UPDATE := true
+MR_DPI := hdpi
+MR_DPI_FONT := 135
+MR_DPI_MUL := 0.6
+MR_FSTAB := device/lge/e2nxx-common/recovery/root/etc/twrp.fstab
+MR_INIT_DEVICES := device/lge/e2nxx-common/multirom/mr_init_devices.c
+MR_INPUT_TYPE := type_b
+MR_KEXEC_DTB := true
+MR_KEXEC_MEM_MIN := 0x05000000
+MR_USE_MROM_FSTAB := true
